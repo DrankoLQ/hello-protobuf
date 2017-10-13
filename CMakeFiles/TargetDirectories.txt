@@ -1,0 +1,3 @@
+/Users/dani/Github/hello-protobuf/CMakeFiles/rebuild_cache.dir
+/Users/dani/Github/hello-protobuf/CMakeFiles/edit_cache.dir
+/Users/dani/Github/hello-protobuf/CMakeFiles/hello_protobuf.dir
