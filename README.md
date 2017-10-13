@@ -72,5 +72,4 @@ input.close();
 ## Execute
 ```./hello_protobuf write``` Writes sample data into ```people.bin``` file
 
-```./hello_protobuf read``` Read sample data from ```people.bin```fil
-if (!auxPerson.ParseFromIstream(&input)) {
+```./hello_protobuf read``` Read sample data from ```people.bin```file
