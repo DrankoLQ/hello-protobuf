@@ -35,7 +35,12 @@ person.add_email("jose@email.com");
 person.add_id(2);
 person.add_name("Juan Carlos");
 person.add_email("juancarlos@email.com");
-person.SerializeToOstream(&output);
+
+if (!person.SerializeToOstream(&output)) {
+    cerr << "Failed to write person." << endl;
+    return -1;
+}
+
 output.close();
 ```
 
